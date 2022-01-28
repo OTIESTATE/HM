@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>OTI Membership | Version 1 </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="A Assets, Finance and Client Management Portal Designed and Developed By Mohamed elsharief - OTI ESTATE." name="description" />
+        <meta content="Mohamed Sharief" name="author" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- C3 Chart css -->
+        <link href="assets/libs/c3/c3.min.css" rel="stylesheet" type="text/css" />
+
+        <!-- App css -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap-stylesheet" />
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css"  id="app-stylesheet" />
+
+    </head>
+
+    <body>
+
+        <!-- Begin page -->
+        <div id="wrapper">
+
+            
+            <!-- Topbar Start -->
+            <div class="navbar-custom">
+                <ul class="list-unstyled topnav-menu float-right mb-0">
+
+                    <li class="dropdown notification-list dropdown d-none d-lg-inline-block ml-2">
+                        <a class="nav-link dropdown-toggle mr-0 waves-effect waves-light" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                           <p>العربية</p>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <img src="assets/images/flags/us.jpg" alt="lang-image" class="mr-1" height="12"> <span
+                                    class="align-middle">English</span>
+                            </a>
+
+                        </div>
+                    </li>
+
+                    <li class="dropdown notification-list">
+                        <a class="nav-link dropdown-toggle  waves-effect waves-light" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                            <i class="dripicons-bell noti-icon"></i>
+                            <span class="badge badge-pink rounded-circle noti-icon-badge">4</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-lg">
+
+                            <div class="dropdown-header noti-title">
+                                <h5 class="text-overflow m-0"><span class="float-right">
+                                    <span class="badge badge-danger float-right">4</span>
+                                    </span>إشعارات</h5>
+                            </div>
+
+                            <div class="slimscroll noti-scroll">
+
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-success"><i class="mdi mdi-comment-account-outline"></i></div>
+                                    <p class="notify-details">يرجى التوقيع على آخر اتفاقية تم تحميلها<small class="text-muted">3 Min Ago</small></p>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-primary">
+                                        <i class="mdi mdi-settings-outline"></i>
+                                    </div>
+                                    <p class="notify-details">يحتاج فريق البناء والتجديد إلى رأيك في أمر مهم
+                                        <small class="text-muted">8 Mins Ago </small>
+                                    </p>
+                                </a>
+                    
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-warning">
+                                        <i class="fas fa-wallet"></i>
+                                    </div>
+                                    <p class="notify-details">لقد أكمل المستأجر الخاص بك للوحدة 3 أ سداده للتو
+                                        <small class="text-muted">3 Days Ago </small>
+                                    </p>
+                                </a>
+
+                                <!-- item-->
+                                
+                            </div>
+
+                            <!-- All-->
+                            <a href="javascript:void(0);" class="dropdown-item text-center text-primary notify-item notify-all">
+                                View all
+                                <i class="fi-arrow-right"></i>
+                            </a>
+
+                        </div>
+                    </li>
+
+                    <li class="dropdown notification-list">
+                        <a class="nav-link dropdown-toggle nav-user mr-0 waves-effect waves-light" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                            <img src="assets/images/users/avatar-1.jpg" alt="user-image" class="rounded-circle">
+                            <span class="pro-user-name ml-1">
+                                محمد الشريف <i class="mdi mdi-chevron-down"></i> 
+                            </span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
+                            <!-- item-->
+                            <div class="dropdown-header noti-title">
+                                <h6 class="text-overflow m-0">! مرحبا</h6>
+                            </div>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <i class="fe-user"></i>
+                                <span>الملف الشخصي</span>
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <i class="fe-settings"></i>
+                                <span>إعدادات</span>
+                            </a>
+
+                            <div class="dropdown-divider"></div>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <i class="fe-log-out"></i>
+                                <span>تسجيل خروج</span>
+                            </a>
+
+                        </div>
+                    </li>
+
+                    <li class="dropdown notification-list">
+                        <a href="javascript:void(0);" class="nav-link right-bar-toggle waves-effect waves-light">
+                            <i class="fe-settings noti-icon"></i>
+                        </a>
+                    </li>
+
+
+                </ul>
+
+                <!-- LOGO -->
+                <div class="logo-box">
+                    <a href="index.html" class="logo text-center">
+                        <span class="logo-lg">
+                            <img src="assets/images/logo-light.png" alt="" height="20">
+                            <!-- <span class="logo-lg-text-light">UBold</span> -->
+                        </span>
+                        <span class="logo-sm">
+                            <!-- <span class="logo-sm-text-dark">U</span> -->
+                            <img src="assets/images/logo-sm.png" alt="" height="49">
+                        </span>
+                    </a>
+                </div>
+
+                <ul class="list-unstyled topnav-menu topnav-menu-left m-0">
+                    <li>
+                        <button class="button-menu-الفواتير waves-effect waves-light">
+                            <i class="fe-menu"></i>
+                        </button>
+                    </li>
+
+                    <li class="d-none d-sm-block">
+                            <form class="app-search">
+                                <div class="app-search-box">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder=".... بحث">
+                                        <div class="input-group-append">
+                                            <button class="btn" type="submit">
+                                                <i class="fe-search"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </li>
+
+                </ul>
+            </div>
+            <!-- end Topbar -->
+
+            
+            <!-- ========== Left Sidebar Start ========== -->
+            <div class="left-side-menu">
+
+                <div class="slimscroll-menu">
+
+                    <!--- Sidemenu -->
+                    <div id="sidebar-menu">
+
+                        <ul class="metismenu" id="side-menu">
+
+                            <li class="menu-title">القائمة</li>
+
+                            <li>
+                                <a href="javascript: void(0);">
+                                    <i class="fe-airplay"></i>
+                                    <span class="badge badge-success badge-pill float-right">2</span>
+                                    <span> الإحصائيات</span>
+                                </a>
+                                <ul class="nav-second-level" aria-expanded="false">
+                                    <li><a href="index.html">الإحصاءات المالية</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="javascript: void(0);">
+                                    <i class="fe-sidebar"></i>
+                                    <span>  ممتلكاتي</span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                
+                            </li>
+
+                            <li>
+                                <a href="javascript: void(0);">
+                                    <i class="fe-file-plus"></i>
+                                    <span> الخدمات </span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                               
+                            </li>
+
+                            <li>
+                                <a href="javascript: void(0);">
+                                    <i class="fe-plus-square"></i>
+                                    <span> المستندات والملفات </span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                               
+                            </li>
+
+                          
+
+                    </div>
+                    <!-- End Sidebar -->
+
+                    <div class="clearfix"></div>
+
+                </div>
+                <!-- Sidebar -left -->
+
+            </div>
+            <!-- Left Sidebar End -->
+
+            <!-- ============================================================== -->
+            <!-- Start Page Content here -->
+            <!-- ============================================================== -->
+
+            <div class="content-page">
+                <div class="content">
+                    
+                    <!-- Start Content-->
+                    <div class="container-fluid">
+                        
+                        <!-- start page title -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box">
+                                    <div class="page-title-right">
+                                        <ol class="breadcrumb m-0">
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">OTI ESTATE Membership Program</a></li>
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);"> الإحصائيات</a></li>
+                                            <li class="breadcrumb-item active">إحصاءات عامة</li>
+                                        </ol>
+                                    </div>
+                                    <h4 class="page-title">إحصاءات عامة</h4>
+                                </div>
+                            </div>
+                        </div>     
+                        <!-- end page title --> 
+
+                        <div class="row">
+
+                            <div class="col-xl-3 col-sm-6">
+                                <div class="card-box widget-box-two widget-two-custom">
+                                    <div class="media">
+                                        <div style="margin-bottom: 9em;" class="avatar-lg rounded-circle bg-primary widget-two-icon align-self-center">
+                                            <i class="mdi mdi-currency-usd avatar-title font-30 text-white"></i>
+                                        </div>
+                                        <div class="wigdet-two-content media-body">
+                                            <p class="m-0 text-uppercase font-weight-medium text-truncate" title="Statistics">الأرباح</p>
+                                            <h3 style="color: #30BF6E" class="font-weight-medium my-2"><span style="color: #30BF6E " data-plugin="counterup">3,303</span>$</h3>
+                                            <p style="color: #30BF6E; font-weight: 900; font-size: 1em;"  class="m-0">5.64%</p>
+                                            <div style=" margin-bottom: 2.9em; height: 40px; position: relative;"> <div style=" margin-top: 2.9em; margin-right: 5em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%);"> <button style="border-radius: 10px;" type="button" class="btn btn-primary">   ممتلكاتي
+                                            </button> 
+                                             </div>
+                                             </div>
+                                            
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+
+                            <div class="col-xl-3 col-sm-6">
+                                <div class="card-box widget-box-two widget-two-custom ">
+                                    <div class="media">
+                                        <div style="margin-bottom: 9em;" class="avatar-lg rounded-circle bg-primary widget-two-icon align-self-center">
+                                            <i style="margin-top: 0.8em; margin-right: 0.65em; font-size: 2.3em; color: white;" class="fas fa-hammer"></i>
+                                        </div>
+
+                                        <div class="wigdet-two-content media-body">
+                                            <p class="m-0 text-uppercase font-weight-medium text-truncate" title="Statistics">اعمال البناء</p>
+                                            <div style="margin-left: 2em; margin-top: 1.5em; background-color: #30BF6E !important;" class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                              </div>
+                                            <p  class="m-0">August - 2022 يكتمل في</p>
+                                            <div style=" margin-bottom: 2.9em; height: 40px; position: relative;"> <div style=" margin-top: 2.9em; margin-right: 5em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%);"> <button style="border-radius: 10px;" type="button" class="btn btn-primary"> التجديدات
+                                            </button> 
+                                             </div>
+                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+
+                            <div class="col-xl-3 col-sm-6">
+                                <div class="card-box widget-box-two widget-two-custom ">
+                                    <div class="media">
+                                        <div style="margin-bottom: 9em;" class="avatar-lg rounded-circle bg-primary widget-two-icon align-self-center">
+                                            <i style="margin-top: 0.8em; margin-right: 0.65em; font-size: 2.3em; color: white;" class="fas fa-piggy-bank"></i>
+                                        </div>
+
+                                        <div class="wigdet-two-content media-body">
+                                            <p class="m-0 text-uppercase font-weight-medium text-truncate" title="Statistics">المتبقي من خطة التقسيط</p>
+                                            <div style="margin-left: 2em; margin-top: 1.5em; background-color:#30BF6E !important;" class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                              </div>
+                                              <div style="display: grid;" >
+                                            <p style=" margin-bottom: 1em; font-weight: 900; color:#30BF6E; text-align: right;" class="m-0">مدفوع $124,550 </p>  <p style=" text-align: right; font-weight: 500; color:#FF1610;" class="m-0">  تبقى $8,380 </p> </p>
+                                          <div style=" height: 40px; position: relative;"> <div style="  margin-right: 5em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%);"> <button style="border-radius: 10px;" type="button" class="btn btn-primary"> المالية
+                                            </button> 
+                                             </div>
+                                             </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+
+                            <div class="col-xl-3 col-sm-6">
+                                <div class="card-box widget-box-two widget-two-custom ">
+                                    <div class="media">
+                                        <div style="margin-bottom: 9em;" class="avatar-lg rounded-circle bg-primary widget-two-icon align-self-center">
+                                            <i style="margin-top: 0.8em; margin-right: 0.75em; font-size: 2.3em; color: white;" class="fas fa-poll"></i>
+                                        </div>
+                                        <div class="wigdet-two-content media-body">
+                                            <p class="m-0 text-uppercase font-weight-medium text-truncate" title="Statistics">الدفعة القادمة</p>
+                                            <h3 class="font-weight-medium my-2">$ <span data-plugin="counterup">1,841</span></h3>
+                                            <p  class="m-0">30th - OCTOBER</p>
+                                            <div style=" margin-bottom: 2.9em; height: 40px; position: relative;"> <div style=" margin-top: 2.9em; margin-right: 5em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%);"> <button style="border-radius: 10px;" type="button" class="btn btn-primary"> ادفع الآن
+                                            </button> 
+                                             </div>
+                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                        <!-- end row -->    
+
+                        <div class="row">
+                            <div class="col-xl-4">
+                                <div class="card-box">
+                                    <h4 class="header-title mb-4"> إجمالي المصاريف </h4>
+
+                                    <div class="text-center">
+                                        <h5 class="font-weight-normal text-muted">الاجمالي المستحق</h5>
+                                        <h3 class="mb-3"><i class="mdi mdi-arrow-down-bold-hexagon-outline text-danger"></i> 2320 <small>USD</small></h3>
+                                        
+                                    </div>
+
+                                    <div class="chart-container" dir="ltr">
+                                        <div class="" style="height:280px" id="platform_type_dates_donut"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4">
+                                <div class="card-box">
+                                    <h4 class="header-title mb-4">الدخل</h4>
+
+                                    <div class="text-center">
+                                        <h5 class="font-weight-normal text-muted">إجمالي الدخل</h5>
+                                        <h3 class="mb-3"><i class="mdi mdi-arrow-up-bold-hexagon-outline text-success"></i> 5623 <small>USD</small></h3>
+                                    </div>
+
+                                    <div class="chart-container" dir="ltr">
+                                        <div class="" style="height:280px" id="user_type_bar"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4">
+                                <div class="card-box">
+                                    <h4 class="header-title mb-4"> الدخل و المصاريف </h4>
+
+                                    <div class="text-center">
+                                        <h5 class="font-weight-normal text-muted">مجموع الفرق</h5>
+                                        <h3 class="mb-3"><i class="mdi mdi-arrow-up-bold-hexagon-outline text-success"></i> 3303<small>USD</small></h3>
+                                    </div>
+
+                                    <div class="chart-container" dir="ltr">
+                                        <div class="chart has-fixed-height" style="height:280px" id="page_views_today"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end row -->
+
+
+                        </div>
+                        <!--- end row -->
+                        
+                    </div> <!-- end container-fluid -->
+
+                </div> <!-- end content -->
+
+                
+
+                <!-- Footer Start -->
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                2021&copy; Full Stack Developed by <a href="https://contrast.ge/">Contrast Digital Marketing Solutions</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- end Footer -->
+
+            </div>
+
+            <!-- ============================================================== -->
+            <!-- End Page content -->
+            <!-- ============================================================== -->
+
+        </div>
+        <!-- END wrapper -->
+
+        <!-- Right Sidebar -->
+        <div class="right-bar">
+            <div class="rightbar-title">
+                <a href="javascript:void(0);" class="right-bar-toggle float-right">
+                    <i class="mdi mdi-close"></i>
+                </a>
+                <h4 class="font-16 m-0 text-white">إعدادات النموذج</h4>
+            </div>
+            <div class="slimscroll-menu">
+        
+                <div class="p-3">
+                    <div class="mb-2">
+                        <img src="assets/images/layouts/light.png" class="img-fluid img-thumbnail" alt="">
+                    </div>
+                    <div class="custom-control custom-switch mb-3">
+                        <input type="checkbox" class="custom-control-input theme-choice" id="light-mode-switch" checked />
+                        <label class="custom-control-label" for="light-mode-switch">وضع مشرق</label>
+                    </div>
+            
+                    <div class="mb-2">
+                        <img src="assets/images/layouts/dark.png" class="img-fluid img-thumbnail" alt="">
+                    </div>
+                    <div class="custom-control custom-switch mb-3">
+                        <input type="checkbox" class="custom-control-input theme-choice" id="dark-mode-switch" data-bsStyle="assets/css/bootstrap-dark.min.css" 
+                            data-appStyle="assets/css/app-dark.min.css" />
+                        <label class="custom-control-label" for="dark-mode-switch">الوضع المظلم</label>
+                    </div>
+            
+                   
+
+                   
+                </div>
+            </div> <!-- end slimscroll-menu-->
+        </div>
+        <!-- /Right-bar -->
+
+        <!-- Right bar overlay-->
+        
+
+        <!-- Vendor js -->
+        <script src="assets/js/vendor.min.js"></script>
+
+        <!--C3 Chart-->
+        <script src="assets/libs/d3/d3.min.js"></script>
+        <script src="assets/libs/c3/c3.min.js"></script>
+
+        <script src="assets/libs/echarts/echarts.min.js"></script>
+
+        <script src="assets/js/pages/dashboard.init.js"></script>
+
+        <!-- App js -->
+        <script src="assets/js/app.min.js"></script>
+        
+    </body>
+</html>
